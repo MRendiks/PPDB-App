@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Data Pribadi Siswa"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <!-- Kode Pendaftar -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kode Pendaftar"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etKode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kode"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:editable="false"
+                android:padding="15dp" />
+
+            <!-- Nama Lengkap -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:textSize="15dp"
+                android:padding="15dp" />
+
+            <!-- nis-->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Induk Siswa (NIS)"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NIS"
+                android:inputType="number"
+                android:textSize="15dp"
+                android:padding="15dp" />
+
+            <!-- nisn-->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Induk Siswa Nasional (NISN)"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNisn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NISN"
+                android:inputType="number"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+
+            <!-- Jenis Kelamin -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Pilih Jenis Kelamin "/>
+                <Spinner
+                    android:id="@+id/etJk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <!-- Tempat Lahir -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempat Lahir"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etTempat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tempat Lahir"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+
+            <!-- Tanggal Lhir -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Tanggal Lahir"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_date"
+                android:text="Klik Untuk Membuka Kalender"
+                android:textSize="15dp"/>
+
+            <!-- Agama -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agama"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Pilih Agama Anda "/>
+                <Spinner
+                    android:id="@+id/etAgama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <!-- NIK -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Induk Keluarga (NIK)"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNIK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NIK"
+                android:inputType="number"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+
+            <!-- NOHP -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNoTelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No Telepon"
+                android:inputType="number"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+
+            <!-- NOHP -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:textSize="15dp"
+                android:editable="false"
+                android:padding="15dp" />
+
+            <!-- Alamat -->
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:text="Harap dicek terlebih dahulu sebelum mengirim, dikarenakan data tidak dapat diubah setelah terkirim."/>
+            <Button
+                android:id="@+id/btnKirim"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim Data"
+                android:textColor="#FFFFFF"
+                android:background="#008000" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D2E9E9"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logonu"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PPDB SMK NU Ma'arif Paguyangan"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Silahkan membuat akun terlebih dahulu untuk melakukan pendafatran"/>
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrasi"
+        android:textColor="#FFFFFF"
+        android:background="#008000" />
+
+    <TextView
+        android:id="@+id/tvLoginHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Klik ini masuk jika sudah mempunyai akun"/>
+</LinearLayout>

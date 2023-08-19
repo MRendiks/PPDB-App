@@ -1,0 +1,215 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Petunjuk Pendaftaran PPDB"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMK NU Ma'arif Purbayan"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Petunjuk ini disusun untuk memberikan panduan dan bantuan kepada Anda dalam proses pendaftaran PPDB di SMK NU Ma'arif Purbayan. Kami sangat senang dan antusias untuk menyambut Anda sebagai calon siswa baru di sekolah kami."
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Melalui petunjuk ini, kami akan membimbing Anda melalui langkah-langkah penting yang perlu Anda ikuti untuk melengkapi pendaftaran dengan sukses. Kami juga memberikan informasi dan penjelasan yang detail mengenai setiap langkah agar Anda dapat melaksanakan pendaftaran dengan mudah dan lancar."
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami menekankan pentingnya teliti dan kesungguhan dalam mengisi data pribadi, data asal sekolah, dan memilih jurusan. Kami mendorong Anda untuk memperhatikan setiap detail dan memastikan semua informasi yang Anda berikan akurat dan lengkap. Mengingat bahwa data yang Anda kirimkan tidak dapat diubah setelahnya, kami mengharapkan Anda untuk berhati-hati dan memeriksa kembali sebelum mengirimkan data pendaftaran."
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Petunjuk : "
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Data Pribadi"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohon mengisi dengan teliti dan lengkap semua data pribadi yang diminta. Pastikan data seperti nama, tempat tanggal lahir, alamat, dan informasi lainnya sesuai dengan dokumen resmi yang Anda miliki. Sebelum melanjutkan ke langkah berikutnya, harap periksa kembali semua data yang telah Anda masukkan untuk memastikan keakuratannya."
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/siswa"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Asal Sekolah"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohon untuk mengisi data asal sekolah dengan benar dan lengkap. Mohon mencantumkan informasi mengenai nama sekolah, alamat sekolah, informasi pendidikan lainnya. Kami sangat menekankan pentingnya teliti dalam memberikan data agar informasi yang Anda berikan akurat dan sesuai. Terima kasih atas kerja sama Anda dalam melengkapi data ini dengan cermat."
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/sekolah"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Jurusan"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohon untuk memilih dua jurusan yang menjadi pilihan Anda dengan cermat. Kami menyarankan Anda untuk membaca informasi mengenai masing-masing jurusan dengan teliti sebelum membuat pilihan. Penting untuk mempertimbangkan minat dan kemampuan Anda dalam memilih jurusan yang sesuai. Dengan melakukan pemilihan yang tepat, Anda akan memiliki kesempatan yang lebih baik untuk mengembangkan potensi dan meraih kesuksesan di bidang yang diminati. Terima kasih atas perhatian dan kerjasamanya dalam proses pemilihan jurusan."
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/prodi2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Status Data"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jika sudah mengirim data pribadi, asal sekolah dan jurusan. Harap mengirim status data untuk mengubah status menjadi pengecekan yang dimana nantinya pendaftaran Anda akan ditindak lajut oleh petugas PPPD kami."
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/send2"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami berkomitmen untuk memberikan pengalaman pendaftaran yang transparan, adil, dan berkualitas kepada semua calon siswa. Tim kami siap membantu Anda jika Anda mengalami kendala atau memiliki pertanyaan selama proses pendaftaran. Jangan ragu untuk menghubungi kami melalui kontak yang telah kami sediakan."
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami berharap bahwa melalui petunjuk ini, Anda akan merasa lebih siap dan yakin dalam menghadapi proses pendaftaran PPDB di SMK NU Ma'arif Purbayan. Terima kasih atas kepercayaan Anda dan semangat Anda untuk bergabung dengan komunitas kami. Selamat berpetualang dalam pendaftaran, dan semoga Anda meraih kesuksesan di masa depan bersama kami."
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salam hangat,"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[Tim PPDB SMK NU Ma'arif Purbayan]"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:textColor="#FFFFFF"
+            android:background="#008000" />
+    </LinearLayout>
+
+</ScrollView>
